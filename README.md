@@ -1,3 +1,5 @@
+![Logo de la empresa](https://example.com/logo.png)
+
 # Visualizador de Perfiles de GitHub
 
 Este proyecto muestra el perfil de un usuario de GitHub, incluyendo su avatar, biografía y repositorios, utilizando la API de GitHub. Ofrece un campo de búsqueda para encontrar cualquier nombre de usuario de GitHub y devuelve los datos de su perfil, como seguidores, seguidos y repositorios.
