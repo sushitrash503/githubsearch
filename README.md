@@ -28,6 +28,10 @@ Para ejecutar el proyecto localmente:
 
 Abre Index.html para visualizarlo.
 
+2. API utilizada:
+   ```Github API
+   https://api.github.com/users/
+
 ## Licencia 
 Este proyecto está licenciado bajo la Licencia MIT.
 
