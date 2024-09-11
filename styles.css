@@ -150,19 +150,50 @@ input {
   input:focus {
     border: 2px solid var(--input-focus);
   }
-  @media (max-width: 300px) {
+ 
+  @media (max-width: 768px) {
+    body {
+      display: flex;
+      flex-direction: column; /* Alinea los elementos en columna */
+      justify-content: flex-start; /* Alinea el input y la caja al principio */
+      align-items: center; /* Centra horizontalmente */
+      min-height: 100vh; /* Asegura que ocupe toda la altura de la pantalla */
+      padding: 20px; /* Añade un pequeño padding para que no esté pegado a los bordes */
+    }
+  
+    .form {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 40px; /* Añade espacio entre el input y la caja */
+    }
+  
+    input {
+      width: 80%; /* Ajusta el ancho del input en móviles */
+      max-width: 350px; /* Limita el ancho máximo */
+      margin: 0 auto; /* Centra el input horizontalmente */
+      display: block;
+    }
+  
     .caja {
-        flex-direction: column; /* Haz que los elementos se apilen en pantallas pequeñas */
-        align-items: center; /* Centra los elementos en el eje vertical */
+      width: 90%; /* Ajusta el ancho al 90% de la pantalla */
+      max-width: 350px; /* Limita el ancho máximo en pantallas pequeñas */
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; /* Centrar el contenido dentro de la caja */
+      margin: 0 auto; /* Asegura que la caja esté centrada horizontalmente */
+      padding: 11px; /* Añade un poco de padding */
     }
-    
+  
     img {
-        width: 120px;
-        height: 120px;
+      width: 120px;
+      height: 120px;
     }
-
+  
     .informacion-usuario {
-        max-width: 100%; /* Asegura que la información no se corte en pantallas pequeñas */
-        text-align: center;
+      max-width: 100%;
+      text-align: center;
+      margin: 10px 0; /* Ajustar los márgenes para mejor presentación */
     }
-}
+  }
+  
