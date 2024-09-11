@@ -1,4 +1,4 @@
-![Logo de la empresa](https://example.com/logo.png)
+![Logo de la empresa](./miniatura-empresa)
 
 # Visualizador de Perfiles de GitHub
 
