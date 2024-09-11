@@ -24,4 +24,11 @@ Para ejecutar el proyecto localmente:
 1. Clona el repositorio:
 
    ```bash
-   git clone https://github.com/tu-usuario/github-profiles-viewer.git
+   git clone https://github.com/sushitrash503/githubsearch.git
+
+Abre Index.html para visualizarlo.
+
+##Licencia 
+Este proyecto está licenciado bajo la Licencia MIT.
+
+- Este archivo proporciona una descripción general del proyecto, sus características, las tecnologías utilizadas, instrucciones para ejecutar el proyecto y posibles mejoras futuras.
