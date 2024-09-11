@@ -28,7 +28,7 @@ Para ejecutar el proyecto localmente:
 
 Abre Index.html para visualizarlo.
 
-##Licencia 
+## Licencia 
 Este proyecto está licenciado bajo la Licencia MIT.
 
 - Este archivo proporciona una descripción general del proyecto, sus características, las tecnologías utilizadas, instrucciones para ejecutar el proyecto y posibles mejoras futuras.
