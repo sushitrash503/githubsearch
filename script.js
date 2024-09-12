@@ -34,6 +34,7 @@ async function getRepos (username) {
 function createUserCard(user) {
     const userID = user.name || user.login
     const userBio = user.bio ? `<p>${user.bio}</p>` : ''
+    document.title = `${userID} - Perfil Github`;
 
     const cardHTML = `
         <div class="caja">
